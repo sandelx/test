@@ -1,0 +1,61 @@
+html {
+background-color:blanchedalmond;
+}
+li {
+    display: block;
+  }
+  li::before {
+    color: blue;
+    content: counter(item);
+    counter-increment: item;
+  }
+.canal {
+color: red;
+font-size: x-large;
+}
+li {
+    display: block;
+  }
+  li::before {
+    font-size: 40px;
+    color: blue;
+    content: counter(item);
+    counter-increment: item;
+  }
+  .canal {
+font-size: 30px;
+} 
+a {
+font-size: larger;
+}
+a {
+font-size: x-large;
+}
+#tuichi {
+font-size: xx-large;
+}
+
+p {
+    font-size: large;
+    color: crimson;
+    background-color: grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
